@@ -1,25 +1,39 @@
-body{
-    margin:0;
+/*General styling/layout*/
+
+body {
+    margin: 0;
     font-family: sans-serif;
 }
 
-h1{
+h1 {
     font-size: 1.5em;
     font-weight: bold;
     color: darkolivegreen;
 }
 
-img.logo{
+img.logo {
     width: 150px;
     height: 150px;
 }
 
-img.icon{
+img.icon {
     width: 50px;
     height: 50px;
     border-radius: 30px;
 }
-section.left{
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Left side of the site styling/layout*/
+
+section.left {
     background-color: aliceblue;
     float: left;
     width: 20%;
@@ -27,16 +41,31 @@ section.left{
     text-align: left;
 }
 
-section.right{
-    background-color: aliceblue;
+footer {
+    margin-top: 2em;
+    bottom: 0;
+    font-weight: light;
+    max-width: 15ch;
+}
+
+/*Right side of the site styling/layout*/
+
+section.right {
     float: right;
     width: 80%;
 }
-article{
+
+article.upper {
+    position: relative;
+    top: 0;
+    text-align: center;
     border: 1px solid;
     border-radius: 25px;
-
 }
-ul, li{
-    list-style-type: none;
+
+.lower {
+    position: grid;
+    column-count: 2;
+    text-align: center;
+    border: 1px solid;
 }
