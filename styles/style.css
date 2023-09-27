@@ -19,14 +19,19 @@ img.icon{
     height: 50px;
     border-radius: 30px;
 }
-nav{
+section.left{
     background-color: aliceblue;
-    left: 0;
-    padding: 1em;
-    max-width: 50ch;
+    float: left;
+    width: 20%;
+    overflow: hidden;
     text-align: left;
 }
 
+section.right{
+    background-color: aliceblue;
+    float: right;
+    width: 80%;
+}
 article{
     border: 1px solid;
     border-radius: 25px;
