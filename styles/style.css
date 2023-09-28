@@ -14,6 +14,10 @@ h1 {
     color: #1DCA9B;
 }
 
+img.company{
+    width: 150px;
+    height: 150px;
+}
 img.logo {
     width: 120px;
     height: 120px;
@@ -31,10 +35,16 @@ ul {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #1d4648;
     font-family: Gilroy-Regular, sans-serif;
     font-weight: 600;
     line-height: 2em;
+}
+
+p{
+    color: #1d4648;
+    font-family: Gilroy-Regular, sans-serif;
+    font-weight: 600;  
 }
 
 /*Left side of the site styling/layout*/
@@ -56,6 +66,7 @@ footer {
     position: absolute;
     bottom: 0;
     line-height: 1.5em;
+    color: #1d4648;
 }
 
 /*Right side of the site styling/layout*/
@@ -67,13 +78,13 @@ section.right {
 
 .upper {
     position: relative;
-    left: 25%;
+    left: 20%;
     top: 0.8em;
     text-align: center;
     border-radius: 32px;
     width: 50%;
     padding: 1.5em;
-    background: #e5e3e3;
+    background: #f1f0f0;
 }
 
 .l-lower {
@@ -84,7 +95,7 @@ section.right {
     margin-left: 3em;
     padding: 1.5em;
     margin-top: 1.5em;
-    background: #e5e3e3;
+    background: #f1f0f0;
 }
 
 .r-lower {
@@ -95,5 +106,5 @@ section.right {
     margin-right: 3em;
     padding: 1.5em;
     margin-top: 1.5em;
-    background: #e5e3e3;
+    background: #f1f0f0;
 }
