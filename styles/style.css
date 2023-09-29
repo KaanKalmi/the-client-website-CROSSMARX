@@ -7,7 +7,14 @@ body {
     background-color: #F9F6F0;
 }
 
-h1 {
+h1{
+    font-size: 2.5em;
+    font-weight: 600;
+    font-family: Gilroy-Bold, sans-serif;
+    color: #1DCA9B;
+    text-align: center;
+}
+h2 {
     font-size: 2em;
     font-weight: 600;
     font-family: Gilroy-Bold, sans-serif;
@@ -49,7 +56,7 @@ p{
 
 /*Left side of the site styling/layout*/
 
-section.left {
+.left {
     background-color:#DAE7DD;
     float: left;
     width: 20%;
