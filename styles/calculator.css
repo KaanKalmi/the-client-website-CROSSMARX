@@ -3,12 +3,13 @@ body {
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
     display: grid;
-    grid-template-areas: 
-     "nav nav" 
-     "subject history" 
-     "subject suggestion" 
-     "footer footer"
-     ;
+    text-align: center;
+    grid-template-areas:
+        "nav nav"
+        "subject history"
+        "subject suggestion"
+        "footer footer"
+    ;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: .2fr 1fr .5fr;
 }
@@ -40,21 +41,15 @@ ul {
 
 li {
     display: inline-block;
-    padding-inline: 1em;
+    padding-inline: 2em;
 }
 
 a {
     text-decoration: none;
     color: #1d4648;
     font-family: Gilroy-Regular, sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 2em;
-}
-
-p {
-    color: #1d4648;
-    font-family: Gilroy-Regular, sans-serif;
-    font-weight: 600;
 }
 
 nav {
@@ -65,12 +60,13 @@ nav {
     margin-bottom: 2em;
 }
 
-article{
-    -webkit-box-shadow: 0px 0px 6px  #222;
+article {
+    -webkit-box-shadow: 0px 0px 6px #222;
     -moz-box-shadow: 0px 0px 6px #222;
-    box-shadow: 0px 0px 6px  #222;
+    box-shadow: 0px 0px 6px #222;
     border-radius: 25px;
 }
+
 .handprint {
     grid-area: subject;
     background-color: #F7F7F7;
@@ -80,13 +76,15 @@ article{
     grid-area: subject;
     background-color: #F7F7F7;
 }
-.history{
+
+.history {
     grid-area: history;
 }
 
-.suggestion{
+.suggestion {
     grid-area: suggestion;
 }
+
 footer {
     grid-area: footer;
     -webkit-box-shadow: 0px -4px 6px -6px #000;

@@ -1,15 +1,33 @@
 /*General styling/layout*/
 @import url('https://fonts.cdnfonts.com/css/gilroy-bold');
 
-@media (min-width:320px) {
-    body {
-        margin: 0;
-        -webkit-font-smoothing: antialiased;
-        box-sizing: border-box;
-        display: grid;
-        text-align: center;
-    }
+article{
+    -webkit-box-shadow: 0px 0px 6px  #222;
+    -moz-box-shadow: 0px 0px 6px #222;
+    box-shadow: 0px 0px 6px  #222;
+    border-radius: 25px;
+}
 
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: grid;
+    text-align: center;
+}
+footer {
+    -webkit-box-shadow: 0px -4px 6px -6px #000;
+    -moz-box-shadow: 0px -4px 6px -6px #000;
+    box-shadow: 0px -4px 6px -6px #000;
+    margin-top: 4em;
+}
+
+img.company {
+    width: 13em;
+    height: 3em;
+}
+
+@media (min-width:320px) {
     p {
         font-size: 1em;
         font-family: Gilroy-Regular, sans-serif;
@@ -30,11 +48,6 @@
         color: #1DCA9B;
     }
 
-    .company {
-        width: 210px;
-        height: 45px;
-    }
-
     ul {
         list-style-type: none;
         text-align: center;
@@ -49,7 +62,6 @@
         text-decoration: none;
         color: #1d4648;
         font-family: Gilroy-Regular, sans-serif;
-        font-weight: 600;
         line-height: 2em;
     }
 
@@ -85,23 +97,9 @@
         margin-right: auto;
         border-radius: 25px;
     }
-
-    footer {
-        -webkit-box-shadow: 0px -4px 6px -6px #000;
-        -moz-box-shadow: 0px -4px 6px -6px #000;
-        box-shadow: 0px -4px 6px -6px #000;
-        margin-top: 4em;
-    }
 }
 
 @media (min-width:641px) {
-    body {
-        margin: 0;
-        -webkit-font-smoothing: antialiased;
-        box-sizing: border-box;
-        display: grid;
-        text-align: center;
-    }
 
     p {
         font-size: 1em;
@@ -123,11 +121,6 @@
         color: #1DCA9B;
     }
 
-    img.company {
-        width: 210px;
-        height: 45px;
-    }
-
     ul {
         list-style-type: none;
         text-align: right;
@@ -170,23 +163,9 @@
         background-color: #F7F7F7;
         border-radius: 25px;
     }
-
-    footer {
-        -webkit-box-shadow: 0px -4px 6px -6px #000;
-        -moz-box-shadow: 0px -4px 6px -6px #000;
-        box-shadow: 0px -4px 6px -6px #000;
-        margin-top: 4em;
-    }
 }
 
 @media (min-width:961px) {
-    body {
-        margin: 0;
-        -webkit-font-smoothing: antialiased;
-        box-sizing: border-box;
-        display: grid;
-    }
-
     p {
         font-size: 1em;
         font-family: Gilroy-Regular, sans-serif;
@@ -208,11 +187,6 @@
         color: #1DCA9B;
     }
 
-    img.company {
-        width: 13.1em;
-        height: 3em;
-    }
-
     ul {
         list-style-type: none;
         text-align: right;
@@ -229,12 +203,6 @@
         font-family: Gilroy-Regular, sans-serif;
         font-weight: 600;
         line-height: 2em;
-    }
-
-    p {
-        color: #1d4648;
-        font-family: Gilroy-Regular, sans-serif;
-        font-weight: 600;
     }
 
     nav {
@@ -256,12 +224,5 @@
         margin-right: 3em;
         background-color: #F7F7F7;
         border-radius: 25px;
-    }
-
-    footer {
-        -webkit-box-shadow: 0px -4px 6px -6px #000;
-        -moz-box-shadow: 0px -4px 6px -6px #000;
-        box-shadow: 0px -4px 6px -6px #000;
-        margin-top: 4em;
     }
 }
