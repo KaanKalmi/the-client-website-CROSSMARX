@@ -84,7 +84,6 @@
         margin-left: auto;
         margin-right: auto;
         border-radius: 25px;
-
     }
 
     footer {
@@ -210,8 +209,8 @@
     }
 
     img.company {
-        width: 210px;
-        height: 45px;
+        width: 13.1em;
+        height: 3em;
     }
 
     ul {
