@@ -58,11 +58,13 @@ img.company {
     li {
         display: inline-block;
         padding-inline: 1rem;
+        border-radius: 2em;
+        background-color: blue;
     }
 
     a {
         text-decoration: none;
-        color: #1d4648;
+        color: white;
         font-family: Gilroy-Regular, sans-serif;
         line-height: 2em;
     }
@@ -132,11 +134,13 @@ img.company {
     li {
         display: inline-block;
         padding-inline: 2em;
+        border-radius: 2em;
+        background-color: blue;
     }
 
     a {
         text-decoration: none;
-        color: #1d4648;
+        color: white;
         font-family: Gilroy-Regular, sans-serif;
         font-weight: 600;
         line-height: 2em;
@@ -199,11 +203,13 @@ img.company {
     li {
         display: inline-block;
         padding-inline: 2em;
+        border-radius: 2em;
+        background-color: blue;
     }
 
     a {
         text-decoration: none;
-        color: #1d4648;
+        color: white;
         font-family: Gilroy-Regular, sans-serif;
         font-weight: 600;
         line-height: 2em;
