@@ -1,10 +1,10 @@
 /*General styling/layout*/
 @import url('https://fonts.cdnfonts.com/css/gilroy-bold');
 
-article{
-    -webkit-box-shadow: 0px 0px 6px  #222;
+article {
+    -webkit-box-shadow: 0px 0px 6px #222;
     -moz-box-shadow: 0px 0px 6px #222;
-    box-shadow: 0px 0px 6px  #222;
+    box-shadow: 0px 0px 6px #222;
     border-radius: 25px;
 }
 
@@ -15,6 +15,7 @@ body {
     display: grid;
     text-align: center;
 }
+
 footer {
     -webkit-box-shadow: 0px -4px 6px -6px #000;
     -moz-box-shadow: 0px -4px 6px -6px #000;
@@ -26,6 +27,7 @@ img.company {
     width: 13em;
     height: 3em;
 }
+/*General stylization*/
 
 @media (min-width:320px) {
     p {
@@ -98,6 +100,7 @@ img.company {
         border-radius: 25px;
     }
 }
+/*Small screen stylization*/
 
 @media (min-width:641px) {
 
@@ -164,6 +167,7 @@ img.company {
         border-radius: 25px;
     }
 }
+/*Medium screen stylization*/
 
 @media (min-width:961px) {
     p {
@@ -226,3 +230,5 @@ img.company {
         border-radius: 25px;
     }
 }
+
+/*Large screen stylization*/
