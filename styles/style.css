@@ -235,6 +235,7 @@ img.company {
         color: white;
         font-family: Gilroy-Regular, sans-serif;
         font-weight: 600;
+        line-height: 2em;
     }
 
     nav {
