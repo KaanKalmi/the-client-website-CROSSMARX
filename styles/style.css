@@ -1,79 +1,268 @@
 /*General styling/layout*/
 @import url('https://fonts.cdnfonts.com/css/gilroy-bold');
 
-body {
-    margin: 0;
-    -webkit-font-smoothing: antialiased;
-    box-sizing: border-box;
-    display: grid;
+@media (min-width:320px) {
+    body {
+        margin: 0;
+        -webkit-font-smoothing: antialiased;
+        box-sizing: border-box;
+        display: grid;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1em;
+        font-family: Gilroy-Regular, sans-serif;
+        color: #1DCA9B;
+    }
+
+    h2 {
+        font-size: 1.2em;
+        font-weight: 600;
+        font-family: Gilroy-Bold, sans-serif;
+        color: #1DCA9B;
+    }
+
+    h3 {
+        font-size: 1em;
+        font-weight: 600;
+        font-family: Gilroy-Bold, sans-serif;
+        color: #1DCA9B;
+    }
+
+    .company {
+        width: 210px;
+        height: 45px;
+    }
+
+    ul {
+        list-style-type: none;
+        text-align: center;
+    }
+
+    li {
+        display: inline-block;
+        padding-inline: 1rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: #1d4648;
+        font-family: Gilroy-Regular, sans-serif;
+        font-weight: 600;
+        line-height: 2em;
+    }
+
+    p {
+        color: #1d4648;
+        font-family: Gilroy-Regular, sans-serif;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    nav {
+        -webkit-box-shadow: 0 4px 6px -6px #000;
+        -moz-box-shadow: 0 4px 6px -6px #000;
+        box-shadow: 0 4px 6px -6px #000;
+        margin-bottom: 2em;
+    }
+
+    .handprint {
+        margin-bottom: 2em;
+        background-color: #F7F7F7;
+        max-width: 95vw;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 25px;
+
+    }
+
+    .footprint {
+        margin-bottom: 2em;
+        background-color: #F7F7F7;
+        max-width: 95vw;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 25px;
+
+    }
+
+    footer {
+        -webkit-box-shadow: 0px -4px 6px -6px #000;
+        -moz-box-shadow: 0px -4px 6px -6px #000;
+        box-shadow: 0px -4px 6px -6px #000;
+        margin-top: 4em;
+    }
 }
 
-h1 {
-    font-size: 2.5em;
-    font-weight: 600;
-    font-family: Gilroy-Bold, sans-serif;
-    color: #1DCA9B;
-    text-align: center;
+@media (min-width:641px) {
+    body {
+        margin: 0;
+        -webkit-font-smoothing: antialiased;
+        box-sizing: border-box;
+        display: grid;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1em;
+        font-family: Gilroy-Regular, sans-serif;
+        color: #1DCA9B;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        font-weight: 600;
+        font-family: Gilroy-Bold, sans-serif;
+        color: #1DCA9B;
+    }
+
+    h3 {
+        font-size: 1.2em;
+        font-weight: 600;
+        font-family: Gilroy-Bold, sans-serif;
+        color: #1DCA9B;
+    }
+
+    img.company {
+        width: 210px;
+        height: 45px;
+    }
+
+    ul {
+        list-style-type: none;
+        text-align: right;
+    }
+
+    li {
+        display: inline-block;
+        padding-inline: 2em;
+    }
+
+    a {
+        text-decoration: none;
+        color: #1d4648;
+        font-family: Gilroy-Regular, sans-serif;
+        font-weight: 600;
+        line-height: 2em;
+    }
+
+    p {
+        color: #1d4648;
+        font-family: Gilroy-Regular, sans-serif;
+        font-weight: 600;
+    }
+
+    nav {
+        -webkit-box-shadow: 0 4px 6px -6px #000;
+        -moz-box-shadow: 0 4px 6px -6px #000;
+        box-shadow: 0 4px 6px -6px #000;
+        margin-bottom: 2em;
+    }
+
+    .handprint {
+        margin-bottom: 2em;
+        background-color: #F7F7F7;
+        border-radius: 25px;
+    }
+
+    .footprint {
+        margin-bottom: 2em;
+        background-color: #F7F7F7;
+        border-radius: 25px;
+    }
+
+    footer {
+        -webkit-box-shadow: 0px -4px 6px -6px #000;
+        -moz-box-shadow: 0px -4px 6px -6px #000;
+        box-shadow: 0px -4px 6px -6px #000;
+        margin-top: 4em;
+    }
 }
 
-h2 {
-    font-size: 2em;
-    font-weight: 600;
-    font-family: Gilroy-Bold, sans-serif;
-    color: #1DCA9B;
-}
+@media (min-width:961px) {
+    body {
+        margin: 0;
+        -webkit-font-smoothing: antialiased;
+        box-sizing: border-box;
+        display: grid;
+    }
 
-img.company {
-    width: 210px;
-    height: 45px;
-}
+    p {
+        font-size: 1em;
+        font-family: Gilroy-Regular, sans-serif;
+        color: #1DCA9B;
+        text-align: center;
+    }
 
-ul {
-    list-style-type: none;
-    text-align: right;
-}
+    h2 {
+        font-size: 2em;
+        font-weight: 600;
+        font-family: Gilroy-Bold, sans-serif;
+        color: #1DCA9B;
+    }
 
-li {
-    display: inline-block;
-    padding-inline: 2em;
-}
+    h3 {
+        font-size: 1.2em;
+        font-weight: 600;
+        font-family: Gilroy-Bold, sans-serif;
+        color: #1DCA9B;
+    }
 
-a {
-    text-decoration: none;
-    color: #1d4648;
-    font-family: Gilroy-Regular, sans-serif;
-    font-weight: 600;
-    line-height: 2em;
-}
+    img.company {
+        width: 210px;
+        height: 45px;
+    }
 
-p {
-    color: #1d4648;
-    font-family: Gilroy-Regular, sans-serif;
-    font-weight: 600;
-}
+    ul {
+        list-style-type: none;
+        text-align: right;
+    }
 
-nav {
-    -webkit-box-shadow: 0 4px 6px -6px #000;
-    -moz-box-shadow: 0 4px 6px -6px #000;
-    box-shadow: 0 4px 6px -6px #000;
-    margin-bottom: 2em;
-}
+    li {
+        display: inline-block;
+        padding-inline: 2em;
+    }
 
-.handprint {
-    float: left;
-    margin-left: 2em;
-    background-color: #F7F7F7;
-}
+    a {
+        text-decoration: none;
+        color: #1d4648;
+        font-family: Gilroy-Regular, sans-serif;
+        font-weight: 600;
+        line-height: 2em;
+    }
 
-.footprint {
-    float: right;
-    margin-right: 2em;
-    background-color: #F7F7F7;
-}
+    p {
+        color: #1d4648;
+        font-family: Gilroy-Regular, sans-serif;
+        font-weight: 600;
+    }
 
-footer {
-    -webkit-box-shadow: 0px -4px 6px -6px #000;
-    -moz-box-shadow: 0px -4px 6px -6px #000;
-    box-shadow: 0px -4px 6px -6px #000;
-    margin-top: 2em;
+    nav {
+        -webkit-box-shadow: 0 4px 6px -6px #000;
+        -moz-box-shadow: 0 4px 6px -6px #000;
+        box-shadow: 0 4px 6px -6px #000;
+        margin-bottom: 2em;
+    }
+
+    .handprint {
+        float: left;
+        margin-left: 3em;
+        background-color: #F7F7F7;
+        border-radius: 25px;
+    }
+
+    .footprint {
+        float: right;
+        margin-right: 3em;
+        background-color: #F7F7F7;
+        border-radius: 25px;
+    }
+
+    footer {
+        -webkit-box-shadow: 0px -4px 6px -6px #000;
+        -moz-box-shadow: 0px -4px 6px -6px #000;
+        box-shadow: 0px -4px 6px -6px #000;
+        margin-top: 4em;
+    }
 }
