@@ -2,6 +2,7 @@
 
 # Titel
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
+Een nieuw design voor Crossmarx hun handprint/footprint calculator
 
 ## Inhoudsopgave
 
