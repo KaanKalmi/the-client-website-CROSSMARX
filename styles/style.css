@@ -30,6 +30,15 @@ img.company {
     left: 0;
 }
 
+img{
+    width: 11em;
+    height: 11em;
+}
+
+.foot{
+    width: 10em;
+    height: 12em;
+}
 /*General stylization*/
 
 @media (min-width:320px) {

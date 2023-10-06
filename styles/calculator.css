@@ -14,6 +14,11 @@ body {
     grid-template-rows: .2fr 1fr .5fr;
 }
 
+img{
+    width: 11em;
+    height: 13em;
+}
+
 p {
     font-size: 1em;
     font-family: Gilroy-Regular, sans-serif;
