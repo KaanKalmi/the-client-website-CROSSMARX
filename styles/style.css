@@ -46,8 +46,7 @@ img {
 @media (min-width:320px) {
     p {
         font-size: 1em;
-        font-family: Gilroy-Regular, sans-serif;
-        color: #1DCA9B;
+        text-align: center;
     }
 
     h2 {
@@ -84,9 +83,7 @@ img {
     }
 
     p {
-        color: #1d4648;
-        font-family: Gilroy-Regular, sans-serif;
-        font-weight: 600;
+        font-size: 1em;
         text-align: center;
     }
 
@@ -143,9 +140,8 @@ img {
 @media (min-width:641px) {
 
     p {
-        font-size: 1em;
-        font-family: Gilroy-Regular, sans-serif;
-        color: #1DCA9B;
+        font-size: 2em;
+        text-align: center;
     }
 
     h2 {
@@ -182,12 +178,6 @@ img {
     nav a {
         text-decoration: none;
         color: white;
-        font-family: Gilroy-Regular, sans-serif;
-        font-weight: 600;
-        }
-
-    p {
-        color: #1d4648;
         font-family: Gilroy-Regular, sans-serif;
         font-weight: 600;
     }
@@ -237,9 +227,7 @@ img {
 
 @media (min-width:820px) {
     p {
-        font-size: 1em;
-        font-family: Gilroy-Regular, sans-serif;
-        color: #1DCA9B;
+        font-size: 3em;
         text-align: center;
     }
 
@@ -336,23 +324,23 @@ img {
     footer a:hover {
         text-decoration: underline;
     }
-}
 
-.calculator{
-    float: left;
-    margin: 1em;
-    margin-left: 2em;
-}
+    .calculator {
+        float: left;
+        margin-left: 2em;
+        margin: 1em;
+    }
 
-.history{
-    float:right;
-    margin: 1em;
-    margin-right: 2em;
-}
+    .history {
+        float: right;
+        margin-right: 2em;
+        margin: 1em;
+    }
 
-.suggestion{
-    float: right;
-    margin: 1em;
-    margin-right: 2em;
+    .suggestion {
+        float: right;
+        margin-right: 2em;
+        margin: 1em;
+    }
 }
-/*Large screen stylization*/
+    /*Large screen stylization*/
