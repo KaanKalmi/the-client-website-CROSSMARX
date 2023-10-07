@@ -26,19 +26,21 @@ footer {
 img.company {
     width: 13em;
     height: 3em;
-    position: absolute;
+    position: relative;
     left: 0;
 }
 
-img{
+img {
     width: 11em;
     height: 11em;
+    padding: 1rem;
 }
 
-.foot{
+.foot {
     width: 10em;
     height: 12em;
 }
+
 /*General stylization*/
 
 @media (min-width:320px) {
@@ -62,19 +64,19 @@ img{
         color: #1DCA9B;
     }
 
-    ul {
+    nav ul {
         list-style-type: none;
         text-align: center;
     }
 
-    li {
+    nav li {
         display: inline-block;
         padding-inline: 1rem;
         border-radius: 2em;
         background: linear-gradient(96deg, #1DCA9B 9.24%, #1dca24 87.42%);
     }
 
-    a {
+    nav a {
         text-decoration: none;
         color: white;
         font-family: Gilroy-Regular, sans-serif;
@@ -115,23 +117,25 @@ img{
         border-radius: 25px;
     }
 
-    .f-list{
-        list-style-type: none;
+    footer ul {
+        list-style: none;
         display: block;
-        text-align: center;
+        position: relative;
+        float: left;
     }
 
-    .f-list li{
+    footer li,
+    footer li:hover {
+        text-align: left;
         background: white;
-        padding: 1em;
+        color: black;
     }
 
-    .f-list a{
-        text-decoration: none;
+    footer a,
+    footer a:hover {
+        background: white;
+        color: black;
         font-family: Gilroy-Regular, sans-serif;
-        font-weight: 400;
-        line-height: 1.4em;
-        color: #000;
     }
 }
 
@@ -159,24 +163,24 @@ img{
         color: #1DCA9B;
     }
 
-    ul {
+    nav ul {
         list-style-type: none;
         text-align: right;
     }
 
-    li {
+    nav li {
         display: inline-block;
         padding-inline: 2em;
         border-radius: 2em;
         background: linear-gradient(96deg, #1DCA9B 9.24%, #1dca24 87.42%);
     }
 
-    li:hover {
+    nav li:hover {
         background: linear-gradient(96deg, #1d4dca 9.24%, #38cfc6 87.42%);
-        transition:1s;
+        transition: 1s;
     }
 
-    a {
+    nav a {
         text-decoration: none;
         color: white;
         font-family: Gilroy-Regular, sans-serif;
@@ -209,23 +213,25 @@ img{
         border-radius: 25px;
     }
 
-    .f-list{
-        list-style-type: none;
+    footer ul {
+        list-style: none;
         display: block;
-        text-align: center;
+        position: relative;
+        float: left;
     }
 
-    .f-list li{
+    footer li,
+    footer li:hover {
+        text-align: left;
         background: white;
-        padding: 1em;
+        color: black;
     }
 
-    .f-list a{
-        text-decoration: none;
+    footer a,
+    footer a:hover {
+        background: white;
+        color: black;
         font-family: Gilroy-Regular, sans-serif;
-        font-weight: 400;
-        line-height: 1.4em;
-        color: #000;
     }
 }
 
@@ -253,12 +259,12 @@ img{
         color: #1DCA9B;
     }
 
-    ul {
+    nav ul {
         list-style-type: none;
         text-align: right;
     }
 
-    li {
+    nav li {
         display: inline-block;
         padding-inline: 2em;
         border-radius: 2em;
@@ -266,12 +272,12 @@ img{
         transition: 1s;
     }
 
-    li:hover {
+    nav li:hover {
         background: linear-gradient(96deg, #1d4dca 9.24%, #38cfc6 87.42%);
-        transition:3s;
+        transition: 3s;
     }
 
-    a {
+    nav a {
         text-decoration: none;
         color: white;
         font-family: Gilroy-Regular, sans-serif;
@@ -288,35 +294,50 @@ img{
 
     .handprint {
         float: left;
-        margin-left: 3em;
+        margin-left: 5em;
         background-color: #F7F7F7;
         border-radius: 25px;
     }
 
     .footprint {
         float: right;
-        margin-right: 3em;
+        margin-right: 5em;
         background-color: #F7F7F7;
         border-radius: 25px;
     }
 
-    .f-list{
-        list-style-type: none;
+    .listHeadStyle {
+        font-size: 1.2em;
+        font-weight: 600;
+        font-family: Gilroy-Bold, sans-serif;
+        color: #1DCA9B;
+    }
+
+    footer ul {
+        list-style: none;
         display: block;
-        text-align: center;
+        position: relative;
+        float: right;
+        padding-inline: 2em;
+        line-height: 1.5em;
     }
 
-    .f-list li{
+    footer li,
+    footer li:hover {
+        text-align: left;
         background: white;
-        padding: 1em;
+        color: black;
     }
 
-    .f-list a{
-        text-decoration: none;
+    footer a {
+        background: white;
+        color: black;
         font-family: Gilroy-Regular, sans-serif;
-        font-weight: 400;
-        line-height: 1.4em;
-        color: #000;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
     }
 }
 
