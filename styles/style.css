@@ -38,7 +38,7 @@ img {
 
 .foot {
     width: 10em;
-    height: 12em;
+    height: 13em;
 }
 
 /*General stylization*/
@@ -81,7 +81,6 @@ img {
         color: white;
         font-family: Gilroy-Regular, sans-serif;
         font-weight: 600;
-        line-height: 2em;
     }
 
     p {
@@ -185,8 +184,7 @@ img {
         color: white;
         font-family: Gilroy-Regular, sans-serif;
         font-weight: 600;
-        line-height: 2em;
-    }
+        }
 
     p {
         color: #1d4648;
@@ -282,7 +280,6 @@ img {
         color: white;
         font-family: Gilroy-Regular, sans-serif;
         font-weight: 600;
-        line-height: 2em;
     }
 
     nav {
@@ -341,4 +338,21 @@ img {
     }
 }
 
+.calculator{
+    float: left;
+    margin: 1em;
+    margin-left: 2em;
+}
+
+.history{
+    float:right;
+    margin: 1em;
+    margin-right: 2em;
+}
+
+.suggestion{
+    float: right;
+    margin: 1em;
+    margin-right: 2em;
+}
 /*Large screen stylization*/
