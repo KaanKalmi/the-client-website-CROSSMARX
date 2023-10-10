@@ -45,8 +45,9 @@
     }
 
     h1 {
-        font-size: 2em;
-        font-family: Gilroy-bold;
+        font-size: 2.5em;
+        font-family: Gilroy-bold, sans-serif;
+        color: #1DCA9B;
     }
 
     p {
