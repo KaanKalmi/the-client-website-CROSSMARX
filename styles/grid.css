@@ -122,15 +122,16 @@
         margin-left: 5em;
     }
 
-    .history{
+    .history {
         float: right;
         margin-right: 5em;
     }
 
-    .his-date{
+    .his-date {
         list-style-type: none;
         text-align: left;
     }
+
     footer {
         -webkit-box-shadow: 0px -4px 6px -6px #000;
         -moz-box-shadow: 0px -4px 6px -6px #000;
