@@ -3,6 +3,8 @@
 # Titel
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 Een nieuw design voor Crossmarx hun handprint/footprint calculator
+![image](https://github.com/KaanKalmi/the-client-website-CROSSMARX/assets/144000125/2aaddbb1-eb5e-485a-bd3d-60958e0ab3d3)
+
 
 ## Inhoudsopgave
 
