@@ -212,7 +212,7 @@
             "nav main main main"
             "footer footer footer footer";
         grid-template-columns: .2fr 1fr 1fr;
-        grid-template-rows: .1fr 6.5fr 2fr;
+        grid-template-rows: .2fr 6fr 1.2fr;
         margin: 0;
         height: 100%;
         font-family: Gilroy-regular, sans-serif;
@@ -234,7 +234,7 @@
         overflow: auto;
         margin-top: 1em;
         height: 90%;
-        width: 40%;
+        width: 35%;
         text-align: center;
     }
 
@@ -321,13 +321,16 @@
     .handprint {
         grid-area: hp;
         float: left;
-        margin-left: 3em;
+        margin-left: 2em;
+        padding: 0;
     }
 
     .footprint {
         grid-area: ft;
         float: right;
-        margin-right: 3em;
+        margin-right: 2em;
+        margin-top: 2em;
+        padding: 0;
     }
 
     .calculator {
