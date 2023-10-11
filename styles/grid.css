@@ -8,9 +8,10 @@
             "nav main main main"
             "footer footer footer footer";
         grid-template-columns: .2fr 1fr 1fr;
-        grid-template-rows: .2fr 10fr 2fr;
+        grid-template-rows: .2fr 6fr 2fr;
         margin: 0;
         height: 100%;
+        font-family: Gilroy-regular, sans-serif;
     }
 
     img.company {
@@ -62,6 +63,12 @@
         color: #1DCA9B;
     }
 
+    h4 {
+        font-family: Gilroy-bold, sans-serif;
+        font-size: 1.2em;
+        color: #222;
+    }
+
     header {
         -webkit-box-shadow: 0 4px 6px -6px #000;
         -moz-box-shadow: 0 4px 6px -6px #000;
@@ -85,13 +92,14 @@
         margin-block: 2em;
         margin-right: 1.2em;
         margin-left: -1em;
-        padding-block: .2em;
+        padding: .5em;
         border-radius: 2em;
         background: linear-gradient(96deg, #1DCA9B 9.24%, #1dca24 87.42%);
     }
 
     nav li:hover {
         background: linear-gradient(96deg, #1d4dca 9.24%, #38cfc6 87.42%);
+        cursor: grab;
     }
 
     nav a {
@@ -99,6 +107,7 @@
         color: white;
         font-family: Gilroy-Regular, sans-serif;
         font-weight: 600;
+        cursor: grab;
     }
 
     main {
@@ -130,6 +139,21 @@
     .his-date {
         list-style-type: none;
         text-align: left;
+    }
+
+    button {
+        background: linear-gradient(96deg, #1DCA9B 9.24%, #1dca24 87.42%);
+        border: 0px;
+        padding: 1em;
+        border-radius: 2rem;
+        font-family: Gilroy-Bold, sans-serif;
+        font-size: 1em;
+        color: #F7F7F7;
+        cursor: grab;
+    }
+
+    button:hover {
+        background: linear-gradient(96deg, #1d4dca 9.24%, #38cfc6 87.42%);
     }
 
     footer {
