@@ -521,23 +521,35 @@
     .handprint {
         grid-area: hp;
         float: left;
-        margin-left: 5em;
+        margin-left: 3em;
+        margin-right: 0;
+        margin-top: 2em;
+        padding: 0;
     }
 
     .footprint {
         grid-area: ft;
         float: right;
-        margin-right: 5em;
+        margin-right: 3em;
+        margin-left: 0;
+        margin-top: 2em;
+        padding: 0;
     }
 
     .calculator {
         float: left;
-        margin-left: 5em;
+        margin-left: 3em;
+        margin-right: 0;
+        margin-top: 2em;
+        padding: 0;
     }
 
     .history {
         float: right;
-        margin-right: 5em;
+        margin-right: 3em;
+        margin-left: 0;
+        margin-top: 2em;
+        padding: 0;
     }
 
     .his-date {
